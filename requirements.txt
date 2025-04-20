@@ -1,4 +1,4 @@
 streamlit
-openai
+openai==.28
 matplotlib
 numpy
