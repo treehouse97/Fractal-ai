@@ -19,7 +19,7 @@ if st.button("Run Fractal Analysis"):
         fig = generate_fractal_image(depth)
         buf = io.BytesIO()
         fig.savefig(buf, format="png")
-        st.image(buf, caption="Generated Fractal Antenna", use_column_width=True)
+        st.image(buf, caption="Generated Fractal Antenna", use_container_width=True)
 
         prompt = f"""
         You are a symbolic interpreter for a fractal intelligence system.
